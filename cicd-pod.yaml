@@ -3,6 +3,6 @@ spec:
   - name: p1
     image: quay.io/podman/stable:v4.5.0
     command: ["sleep"]
-    args: ["infinity"
+    args: ["infinity"]
     securityContext:
       privileged: true
